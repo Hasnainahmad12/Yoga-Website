@@ -1,0 +1,28 @@
+.services__card {
+    border: 1px solid rgb(233, 224, 224);
+    border-bottom: 4px solid black;
+    @apply h-[480px] w-[260px]
+}
+
+.servicescard__img {
+    @apply h-[300px] w-[280px]
+    
+}
+
+.servicescard__desc {
+    padding-top: 10px;
+    color: rgb(65, 65, 65);
+    font-size: 14px;
+}
+
+.services__btn {
+    height: 30px;
+    width: 100px;
+    background: #B01E68;
+    color: white;
+    margin-top: 15px;
+}
+
+@media (max-width:800px) {
+    
+}

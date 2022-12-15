@@ -1,0 +1,46 @@
+.choose__card {
+    /* border: 5px solid rgb(233, 224, 224); */
+    @apply h-[100px] w-[550px] pt-5
+}
+
+.choosecard__img {
+    border-radius: 50%;
+    @apply h-[40px] w-12
+    
+}
+
+.choosecard__title {
+    @apply font-bold text-white text-xl
+}
+
+.choosecard__price {
+    color: white;
+    padding-left: 57px;
+    font-size: 13px;
+}
+
+@media (max-width:800px) {
+    .choose__card {
+        /* border: 5px solid rgb(233, 224, 224); */
+        @apply h-[100px] w-[100%] pt-5
+    }
+    
+    .choosecard__img {
+        border-radius: 50%;
+        @apply h-[30px] w-10
+        
+    }
+    
+.choosecard__title {
+    @apply  text-white 
+}
+
+    .choosecard__price {
+        height: 100px;
+        width: 410px;
+        color: white;
+        padding-left: 47px;
+        font-size: 12px;
+    }
+        
+}

@@ -1,0 +1,14 @@
+.yoga__card {
+    /* border: 5px solid rgb(233, 224, 224); */
+    @apply h-[120px] w-[300px] mt-5
+}
+
+.yogacard__img {
+    @apply h-[30px] w-10
+    
+}
+
+.yogacard__price {
+    padding-top: 10px;
+    color: rgb(13, 13, 13);
+}
