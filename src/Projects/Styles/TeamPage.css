@@ -1,0 +1,10 @@
+.our__team {
+    @apply text-xl font-bold text-gray-500
+}
+
+@media (max-width:600px) {
+    .our__team {
+        @apply text-lg font-bold text-gray-500 mt-[-70px]
+    }
+
+}

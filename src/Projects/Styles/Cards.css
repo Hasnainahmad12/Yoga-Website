@@ -1,6 +1,6 @@
 .card {
     border: 1px solid rgb(233, 224, 224);
-    @apply h-[460px] w-[300px] relative 
+    @apply h-[460px] w-[320px] relative 
 }
 
 .card__img {

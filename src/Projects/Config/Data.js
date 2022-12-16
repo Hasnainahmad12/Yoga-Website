@@ -15,6 +15,7 @@ import t1 from "../Images/t1.jpg";
 import t2 from "../Images/t2.jpg";
 import t3 from "../Images/t3.jpg";
 import t4 from "../Images/t4.jpg";
+import y131 from "../Images/y13.jpg";
 
 
 export const data = [
@@ -49,4 +50,16 @@ export const team = [
     {Img: t2, member: "Json Thomas", title: "Senior Instructor", phone: '+998877333' , email:"jsonthomus@gmail.com"},
     {Img: t3, member: "Rabica Martin", title: "Senior Instructor", phone: '+9233636655' , email:"rabicamartin@gmail.com"},
     {Img: t4, member: "Martin King", title: "Senior Instructor", phone: '+9988773223' , email:"martinking@gmail.com"},
+]
+
+export const Timer = [
+    {Img: y131, head: "Greate North Run", time: "12 am 11:59 pm", para: "my name is Hasnain Insctructor of Yoga" , btn: "View Detail"},
+    {Img: y14, head: "Late Night Party", time: "12 am 11:59 pm", para: "my name is Hasnain Insctructor of Yoga" , btn: "View Detail"},
+    {Img: y16, head: "Charity Marathon", time: "12 am 11:59 pm", para: "my name is Hasnain Insctructor of Yoga" , btn: "View Detail"},
+]
+
+export const news = [
+    {Img: y3, title: "Dramitacally visualise", desc: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used.",},
+    {Img: y4, title: "Completely pursue scalable", desc: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used.",},
+    {Img: y5, title: "Nanotechnology impression", desc: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used.",},
 ]

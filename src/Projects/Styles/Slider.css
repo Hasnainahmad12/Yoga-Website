@@ -28,26 +28,6 @@
     @apply text-xl font-bold text-gray-500
 }
 
-.Choose__Desc {
-    height: 450px;
-    width: 50%;
-    background: #332FD0;
-    padding: 50px;
-
-}
-
-.choose__title {
-    @apply text-4xl font-bold text-white
-}
-
-.Choose__image {
-    height: 450px;
-    width: 50%;
-}
-
-.our__team {
-    @apply text-xl font-bold text-gray-500
-}
 
 
 @media (max-width:800px) {
@@ -60,32 +40,13 @@
         @apply absolute top-48 text-center bg-pink-600 h-10 w-[220px] text-white    
     }
 
-    .Choose__Desc {
-        height: 400px;
-        width: 100%;
-        background: #332FD0;
-        padding: 10px;
-    
-    }
-
-    .choose__title {
-        @apply text-xl font-bold text-white
-    }
-    
-    .Choose__image {
-        height: 350px;
-        width: 100%;
-    }
-
 }
+
 
 @media (max-width:600px) {
     .services__our {
         @apply text-lg font-bold text-gray-500 mt-[320px]
     }
     
-    .our__team {
-        @apply text-lg font-bold text-gray-500 mt-[-70px]
-    }
     
 }
