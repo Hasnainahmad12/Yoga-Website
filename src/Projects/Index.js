@@ -8,6 +8,8 @@ import ChooseUS from './Pages/ChooseUS';
 import Team from './Pages/Team';
 import Testimonial from './Pages/Testimonial';
 import News from './Pages/News';
+import ContactPage from './Pages/ContactPage';
+import Footer from './Components/Footer';
 
 
 const Index = () => {
@@ -21,8 +23,10 @@ const Index = () => {
       <ChooseUS />
       <Team />
       <Testimonial />
+      <ContactPage />
+      <br />
       <News />
-
+      <Footer />
     </div>
   )
 }
