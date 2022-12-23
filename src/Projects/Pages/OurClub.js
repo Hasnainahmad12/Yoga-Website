@@ -5,7 +5,7 @@ import y10 from "../Images/y10.avif"
 
 const OurClub = () => {
   return (
-    <div className='mt-24 flex flex-wrap justify-center gap-14'>
+    <div className='mt-24 flex flex-wrap justify-center gap-14' id='our'>
 
         <img src={y10} className='h-[520px] w-[380px]' alt='' />
 

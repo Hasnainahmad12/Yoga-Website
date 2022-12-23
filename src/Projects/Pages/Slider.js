@@ -5,7 +5,7 @@ import main from "../Images/y1.jpg";
 const Slider = () => {
   return (
     <div>
-        <div className='relative'>
+        <div className='relative' id='home'>
             <img src={main} className='slider__image' alt='' />
             <div className='absolute text-center left-0 right-0 top-[300px] ml-auto mr-auto m-auto flex justify-center'>
                 <h2 className='font-extrabold text-4xl text-green-900'>LIFE IS BETTER WITH YOGA</h2>

@@ -5,7 +5,7 @@ import ServicesCards from "../Components/ServicesCards";
 const Services = () => {
   return (
     <div>
-        <div className='services__area'>
+        <div className='services__area' id='services'>
           <p className='services__our'>Our Services</p>
           <h2 className='text-3xl font-bold'>Our Services Area</h2>
         </div>

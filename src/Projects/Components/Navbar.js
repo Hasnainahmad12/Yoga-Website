@@ -16,15 +16,15 @@ const Navbar = () => {
         className={icon ? "menu active" : "menu"}
         onclick={() => seticon(!icon)}
       >
-        <li onClick={() => seticon(!icon)}>Home</li>
-        <li onClick={() => seticon(!icon)}>Our Approach</li>
-        <li onClick={() => seticon(!icon)}>About</li>
-        <li onClick={() => seticon(!icon)}>Services</li>
-        <li onClick={() => seticon(!icon)}>Why Choose Us</li>
-        <li onClick={() => seticon(!icon)}>Team</li>
-        <li onClick={() => seticon(!icon)}>Events</li>
-        <li onClick={() => seticon(!icon)}>FAQS</li>
-        <li onClick={() => seticon(!icon)}>News</li>
+        <li onClick={() => seticon(!icon)}><a href="#home">Home</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#about">About</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#our">Our Approach</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#services">Services</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#why">Why Choose Us</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#team">Team</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#testimonial">Testimonial</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#contact">Contacts</a></li>
+        <li onClick={() => seticon(!icon)}><a href="#news">News</a></li>
       </ul>
 
       <div className="menu__icon">

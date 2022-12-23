@@ -3,7 +3,7 @@ import "../Styles/Form.css";
 
 const Form = () => {
   return (
-    <div>
+    <div id='contact'>
         <h2 className='contact__head'>Book an appointment</h2>
         <div className='h-3 w-10 border-b-4 border-pink-500'></div>
         <form className='contact__form' action='' method=''>

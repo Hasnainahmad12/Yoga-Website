@@ -27,6 +27,8 @@ const Index = () => {
       <br />
       <News />
       <Footer />
+
+     {/* add routing  */}
     </div>
   )
 }

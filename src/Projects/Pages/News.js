@@ -4,7 +4,7 @@ import { news } from '../Config/Data'
 
 const News = () => {
   return (
-    <div>
+    <div id='news'>
         <p className='text-center font-bold text-gray-500'>See Recent News</p>
         <h2 className='text-center font-bold text-3xl'>See Our Latest News</h2>
 

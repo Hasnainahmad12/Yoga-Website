@@ -8,7 +8,7 @@ import { BsDash } from "react-icons/bs";
 const Testimonial = () => {
   return (
     <div>
-        <div className='relative'>
+        <div className='relative' id='testimonial'>
           <img src={y20} className='yoga__image' alt='' />
           <h2 className='absolute top-[200px] text-center text-4xl font-bold text-white left-0 right-0 m-auto'>Watch Our Latest Yoga Club Video</h2>
           <p className='absolute left-0 right-0 top-[285px] text-center font-bold'>It is long established fact that a reader will be directed by the readable content of the page when looking its layout</p>

@@ -7,7 +7,7 @@ import "../Styles/ChooseUs.css";
 const ChooseUS = () => {
   return (
     <div>
-        <div className='flex flex-wrap justify-center mt-4'>
+        <div className='flex flex-wrap justify-center mt-4' id='why'>
             <div className='Choose__Desc'>
               <h2 className='choose__title'>Why We Choose US ?</h2>
                 {choose.map((it) => {
